@@ -2,6 +2,7 @@
 tools/
 setup_git.ps1
 mingit.zip
+push_to_github.bat
 
 # OS generated files
 Thumbs.db
