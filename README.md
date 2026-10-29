@@ -17,7 +17,8 @@ Inspired by elite European football clubs, high-tempo match telemetry, and moder
 - **About Me:** Engaging football philosophy narrative, analytical core pillars, and editable profile tags.
 - **Football Expertise:** 6 dedicated tactical domains (Tactical Analysis, Match Analysis, Player Performance, Football Strategy, Football Data Analysis, Scouting & Player Development).
 - **Competencies & Skills:** Animated progress bars with percentage counters triggered automatically via `IntersectionObserver`.
-- **Experience & Education:** Dual-column career and qualification timeline with customizable placeholders.
+- **Experience & Education:** Dual-column career and qualification timeline with customizable placeholders tailored for an undergraduate university student.
+- **Achievements & Milestones:** Dedicated recognition cards for campus tournaments, sports analytics challenges, published tactical writing, and certifications.
 - **Football Projects & Studies:** Premium portfolio cards with interactive popup modal previews.
 - **Tactical & Matchday Photo Gallery:**
   - 5 dynamic filter tabs (*All Moments, Matchday & Stadiums, Tactics & Training, Scouting & Talent ID, Analytics & Debriefs*).
@@ -62,6 +63,38 @@ open index.html
 # On Linux:
 xdg-open index.html
 ```
+
+Or run a local static HTTP server:
+
+```bash
+# Using Python
+python -m http.server 8000
+
+# Using Node.js
+npx serve .
+```
+
+---
+
+## 🌐 Deploy to GitHub Pages
+
+1. Push your repository to GitHub:
+   ```bash
+   git add .
+   git commit -m "Update portfolio with achievements and responsive design"
+   git branch -M main
+   git remote add origin https://github.com/eimranyusni-prog/project-wdm.git
+   git push -u origin main
+   ```
+
+2. Enable GitHub Pages on your repository:
+   - Navigate to **Settings** > **Pages** in your GitHub repository (`https://github.com/eimranyusni-prog/project-wdm/settings/pages`).
+   - Under **Build and deployment** > **Source**, choose **Deploy from a branch**.
+   - Under **Branch**, select `main` and set the folder to `/ (root)`.
+   - Click **Save**.
+
+3. Your website will be live in 1–2 minutes at:
+   `https://eimranyusni-prog.github.io/project-wdm/`
 
 ---
 
